@@ -19,6 +19,26 @@ h2 {
     margin: 14px 0;
 }
 
+img {
+    width: 20%;
+    height: auto;
+    padding-left: 10%;
+}
+
+li {
+    display: flex;         
+    align-items: center;   
+    justify-content: space-between; 
+    list-style: none;       
+    padding: 10px;          
+    border: 1px solid #ccc;          
+}
+
+footer {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
 .task {
     background: #fff;
     margin: 20px;
@@ -38,7 +58,6 @@ h2 {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s;
 }
 
 .button:hover {
